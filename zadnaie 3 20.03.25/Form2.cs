@@ -44,18 +44,12 @@ namespace zadnaie_3_20._03._25
 
         private void text_imie_TextChanged(object sender, EventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
-            {
-                e.Handled = true; 
-            }
+        
         }
 
         private void text_naz_TextChanged(object sender, EventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
-            {
-                e.Handled = true;  
-            }
+        
         }
 
         private void text_wiek_TextChanged(object sender, EventArgs e)
